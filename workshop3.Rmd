@@ -1,5 +1,5 @@
 ---
-title: "workshop3 - RMarkdown"
+title: "workshop3 - RMarkdown and Workshop4 - Data Wrangling"
 author: "Dr Maria Prokofieva"
 date: '2022-03-01'
 output: html_document
