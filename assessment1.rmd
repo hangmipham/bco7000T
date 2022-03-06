@@ -1,0 +1,32 @@
+---
+title: "Assessment 1"
+author: "My Hang Pham- s4674542"
+date: '2022-03-05'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse)
+```
+
+# RMarkdown ***editing***
+
+R Markdown provides an authoring framework for data science. You can use a single R Markdown file to both:
+1. save and execute code, and
+2. generate high quality reports that can be shared with an audience 
+
+# Rmarkdown - Lesson 8 (https://rmarkdown.rstudio.com/lesson-8.html)
+
+
+```{r}
+# Insert an R chunk by using 'Command+option+i'
+
+fastfood<-read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2018/2018-09-04/fastfood_calories.csv')
+
+fastfood%>%head(10) #display the first 10 rows of the dataset
+
+knitr::kable(fastfood[1:10, 1:5]) #display the first 10 rows of the dataset and the frist 5 variables
+
+```
